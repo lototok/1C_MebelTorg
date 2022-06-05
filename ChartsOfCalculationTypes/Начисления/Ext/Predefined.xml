@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CalculationTypePredefinedItems" version="2.13">
+	<Item id="947d8831-4546-469c-8a2a-e7616a0557c1">
+		<Name>Оклад</Name>
+		<Code>001</Code>
+		<Description>Оклад</Description>
+		<ActionPeriodIsBase>false</ActionPeriodIsBase>
+		<Displaced>
+			<CalculationType>ChartOfCalculationTypes.Начисления.Прогул</CalculationType>
+		</Displaced>
+	</Item>
+	<Item id="b8d9b718-38f6-45aa-95ee-cd85ed960f62">
+		<Name>Премия</Name>
+		<Code>003</Code>
+		<Description>Премия</Description>
+		<ActionPeriodIsBase>true</ActionPeriodIsBase>
+		<Base>
+			<CalculationType>ChartOfCalculationTypes.Начисления.Оклад</CalculationType>
+		</Base>
+	</Item>
+	<Item id="d92c2802-ebb6-497a-b0d8-239b3a45167b">
+		<Name>Прогул</Name>
+		<Code>002</Code>
+		<Description>Прогул</Description>
+		<ActionPeriodIsBase>false</ActionPeriodIsBase>
+	</Item>
+</PredefinedData>
